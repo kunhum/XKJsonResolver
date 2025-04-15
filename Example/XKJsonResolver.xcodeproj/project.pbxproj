@@ -28,13 +28,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CD941020806B3D9D05DC682 /* XKJsonResolver.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKJsonResolver.podspec; path = ../XKJsonResolver.podspec; sourceTree = "<group>"; };
+		0CD941020806B3D9D05DC682 /* XKJsonResolver.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKJsonResolver.podspec; path = ../XKJsonResolver.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		17276EAE15C93E4E6BAFC231 /* Pods-XKJsonResolver_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKJsonResolver_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKJsonResolver_Tests/Pods-XKJsonResolver_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3F1979DB0C9DAC6061B3E463 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3F1979DB0C9DAC6061B3E463 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		437571063DC8CBC523469C58 /* Pods_XKJsonResolver_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKJsonResolver_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CA3ADFD3581CE85855F772 /* Pods-XKJsonResolver_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKJsonResolver_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKJsonResolver_Example/Pods-XKJsonResolver_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4C1E908A2B5DB88F2CDCC76A /* Pods-XKJsonResolver_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKJsonResolver_Tests.release.xcconfig"; path = "Target Support Files/Pods-XKJsonResolver_Tests/Pods-XKJsonResolver_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4E6B8F71B0207E359097CE4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4E6B8F71B0207E359097CE4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		57F725E112CEB70E2FA6A03E /* Pods-XKJsonResolver_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKJsonResolver_Example.release.xcconfig"; path = "Target Support Files/Pods-XKJsonResolver_Example/Pods-XKJsonResolver_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XKJsonResolver_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKJsonResolver_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				17276EAE15C93E4E6BAFC231 /* Pods-XKJsonResolver_Tests.debug.xcconfig */,
 				4C1E908A2B5DB88F2CDCC76A /* Pods-XKJsonResolver_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

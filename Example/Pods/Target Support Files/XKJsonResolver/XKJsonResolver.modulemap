@@ -1,0 +1,6 @@
+framework module XKJsonResolver {
+  umbrella header "XKJsonResolver-umbrella.h"
+
+  export *
+  module * { export * }
+}

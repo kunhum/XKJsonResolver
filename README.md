@@ -1,29 +1,5 @@
-# XKJsonResolver
+## 引用的开源组件
 
-[![CI Status](https://img.shields.io/travis/kennth/XKJsonResolver.svg?style=flat)](https://travis-ci.org/kennth/XKJsonResolver)
-[![Version](https://img.shields.io/cocoapods/v/XKJsonResolver.svg?style=flat)](https://cocoapods.org/pods/XKJsonResolver)
-[![License](https://img.shields.io/cocoapods/l/XKJsonResolver.svg?style=flat)](https://cocoapods.org/pods/XKJsonResolver)
-[![Platform](https://img.shields.io/cocoapods/p/XKJsonResolver.svg?style=flat)](https://cocoapods.org/pods/XKJsonResolver)
+本项目使用了开源库 [SmartCodable](https://github.com/intsig171/SmartCodable)，原作者为 [intsig171](https://github.com/intsig171)，遵循 MIT License。
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-XKJsonResolver is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'XKJsonResolver'
-```
-
-## Author
-
-kennth, kennethxk@outlook.com
-
-## License
-
-XKJsonResolver is available under the MIT license. See the LICENSE file for more info.
+根据 MIT 协议，相关源码中已保留原始版权声明。

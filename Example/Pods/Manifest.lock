@@ -1,0 +1,16 @@
+PODS:
+  - XKJsonResolver (0.1.0)
+
+DEPENDENCIES:
+  - XKJsonResolver (from `../`)
+
+EXTERNAL SOURCES:
+  XKJsonResolver:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKJsonResolver: 15ff4a6537d0121d7c5639ed7df906861910359d
+
+PODFILE CHECKSUM: 22466d2aeaba7e8be6685f50992ba12972312882
+
+COCOAPODS: 1.16.2

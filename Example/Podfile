@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XKJsonResolver_Example' do
+  pod 'XKJsonResolver', :path => '../'
+
+  target 'XKJsonResolver_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

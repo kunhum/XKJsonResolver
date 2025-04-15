@@ -28,9 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/kunhum/XKJsonResolver.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
-
   s.source_files = 'XKJsonResolver/Classes/**/*'
+  
+  s.ios.deployment_target = '11.0'
+  s.tvos.deployment_target = "12.0"
+  s.osx.deployment_target = '10.13'
+  s.watchos.deployment_target = '5.0'
+  s.visionos.deployment_target = "1.0"
+  s.swift_version = '5.0'
+  
   
   # s.resource_bundles = {
   #   'XKJsonResolver' => ['XKJsonResolver/Assets/*.png']

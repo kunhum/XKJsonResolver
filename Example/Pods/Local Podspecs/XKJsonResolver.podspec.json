@@ -1,22 +1,28 @@
 {
   "name": "XKJsonResolver",
   "version": "0.1.0",
-  "summary": "A short description of XKJsonResolver.",
+  "summary": "基于SmartCodable",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/kennth/XKJsonResolver",
+  "homepage": "https://github.com/kunhum/XKJsonResolver",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "kennth": "kennethxk@outlook.com"
+    "kenneth": "kunhum@163.com"
   },
   "source": {
-    "git": "https://github.com/kennth/XKJsonResolver.git",
+    "git": "https://github.com/kunhum/XKJsonResolver.git",
     "tag": "0.1.0"
   },
+  "source_files": "XKJsonResolver/Classes/**/*",
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0",
+    "tvos": "12.0",
+    "osx": "10.13",
+    "watchos": "5.0",
+    "visionos": "1.0"
   },
-  "source_files": "XKJsonResolver/Classes/**/*"
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XKJsonResolver'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '基于SmartCodable'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
   
   s.ios.deployment_target = '11.0'
 #  s.tvos.deployment_target = "12.0"
-  s.osx.deployment_target = '10.13'
+#  s.osx.deployment_target = '10.13'
   s.watchos.deployment_target = '5.0'
-  s.visionos.deployment_target = "1.0"
+#  s.visionos.deployment_target = "1.0"
   s.swift_version = '5.0'
   
   
